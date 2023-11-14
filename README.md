@@ -38,3 +38,6 @@ Het is geen probleem als je samenvatting niet in markdown is. Je kan ze altijd p
 Wil je je samenvatting omzetten naar markdown kun je [deze](https://euangoddard.github.io/clipboard2markdown/) online converter gebruiken.
 > **Let op!** Deze converter werkt niet altijd perfect, controleer dus altijd of de markdown goed is.
 > Deze convertor is nog niet getest geweest.
+
+Kun je je samenvatting niet omzetten naar markdown, dan kun je altijd een issue aanmaken met de vraag of iemand anders dit voor jou kan doen. Leg in de issue zeker uit waar de ander je samenvatting kan vinden.
+> Het is niet de bedoeling dat je een issue aanmaakt met de vraag of iemand anders een samenvatting voor jou kan maken. Dit is een repository waar iedereen aan kan bijdragen, dus als je een samenvatting nodig hebt, maak je deze zelf.
