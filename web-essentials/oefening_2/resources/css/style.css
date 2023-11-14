@@ -1,0 +1,104 @@
+body {
+    background: #7F8688;
+    font-family: Courier New;    
+}
+
+#interface {
+    margin: auto;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #929D9E;
+    width: 95%;
+    border-radius: 15px;
+}
+
+#interface h1 {
+    text-align: center;
+    color: #e4e7e7;    
+}
+
+#selectie {
+    margin: auto;
+    padding: 10px;
+    text-align: center;    
+}
+
+label{
+    color: #fff;
+    margin: 10px;    
+}
+
+input{
+    padding: 5px;
+    border: 1px solid #7F8688;
+    border-radius: 4px;    
+}
+
+button{
+    background: #7395ae;
+    color: #fff;
+    padding: 8px 10px;
+    text-align: center;
+    width: 150px;
+    border-radius: 6px;    
+}
+
+button:hover{
+    background: #5d85a2;
+}
+
+#resultaat{
+    overflow: hidden;
+    margin: auto;
+    margin-top: 10px;
+    padding: 25px;    
+    background: #e4e7e7;
+    width: 95%;
+    border-radius: 15px;
+    display: none;
+}
+
+#datatabel{
+    margin: 0;
+    float: left;
+    padding: 10px;
+    background: #7395ae;
+    width: 30%;
+    min-width: 215px;
+    border-radius: 15px;    
+    color: #fff;
+    box-shadow: 10px 10px #7F8688;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    height: 20px;
+}
+
+td{
+    height: 20px;
+    vertical-align:middle;
+    text-align: center;
+}
+
+th, td{
+    border-bottom: 1px solid #ddd;
+}
+
+#chart{
+    float: right;
+    padding: 10px;
+    background: #7395ae;
+    width: 65%;
+    border-radius: 15px;    
+    color: #fff;
+    box-shadow: 10px 10px #7F8688;
+}
+
+
+
+
