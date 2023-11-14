@@ -47,8 +47,8 @@ Kun je je samenvatting niet omzetten naar markdown, dan kun je altijd een issue 
 
 - [1ste semester](./semester_1/)
   - [Applied Maths](./semester_1/applied-maths/)
-  - [Communication Technology](./semester_1/communication-technologie/)
-  - [Digital Technology](./semester_1/digital-technologie/)
+  - [Communication Technology](./semester_1/communication-technology//)
+  - [Digital Technology](./semester_1/digital-technology//)
   - [Electricity](./semester_1/electricity/)
   - [Electronics](./semester_1/electronics/)
   - [Introduction to programming](./semester_1/introduction-to-programming/)
