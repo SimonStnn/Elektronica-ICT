@@ -9,6 +9,7 @@ Samenvattingen en agenda voor Elektronica ICT Vives.
   - [Vereiste vscode extenties](#vereiste-vscode-extenties)
   - [Hoe beidragen](#hoe-beidragen)
     - [Ik heb al een samenvatting gemaakt maar deze is niet in markdown, wat nu?](#ik-heb-al-een-samenvatting-gemaakt-maar-deze-is-niet-in-markdown-wat-nu)
+- [Vakken](#vakken)
 
 ## Ermee beginnen
 
