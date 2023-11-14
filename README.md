@@ -2,7 +2,7 @@
 
 Samenvattingen en agenda voor Elektronica ICT Vives.
 
-## Getting started
+## Ermee beginnen
 
 Om te beginnen met deze repository te gebruiken, moet je eerst de repository clonen naar je eigen computer. Dit doe je door het volgende commando uit te voeren in een terminal:
 
