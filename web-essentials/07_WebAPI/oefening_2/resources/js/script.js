@@ -28,15 +28,68 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     // Append date
     let cell = row.insertCell(-1);
-    cell.appendChild(document.createTextNode(data.Date))
+    cell.appendChild(document.createTextNode(data.Date));
     // Append date
     cell = row.insertCell(-1);
-    cell.appendChild(document.createTextNode(data.Temp))
+    cell.appendChild(document.createTextNode(data.Temp));
     // Append date
     cell = row.insertCell(-1);
-    cell.appendChild(document.createTextNode(data.Humi))
+    cell.appendChild(document.createTextNode(data.Humi));
     // Append date
     cell = row.insertCell(-1);
-    cell.appendChild(document.createTextNode(data.Co2))
+    cell.appendChild(document.createTextNode(data.Co2));
+  });
+
+  // Make Google charts
+  google.charts.load('current', { packages: ['line'] });
+  google.charts.setOnLoadCallback(() => {
+    // Create chart
+    const data = new google.visualization.DataTable();
+    // Add columns
+    data.addColumn('date', 'Datum');
+    data.addColumn('number', 'Temperatuur');
+    data.addColumn('number', 'Luchtvochtigheid');
+    data.addColumn('number', 'CO2');
+
+    // Add data to table
+    values.forEach((gegevens) => {
+      data.addRow([
+        new Date(gegevens.Date),
+        parseFloat(gegevens.Temp),
+        parseFloat(gegevens.Humi),
+        parseFloat(gegevens.Co2),
+      ]);
+    });
+
+    // Set options
+    const options = {
+      chart: {
+        title: 'History graph',
+        subtitle: 'in de kelder',
+      },
+      width: '100%',
+      height: 690,
+      series: {
+        0: { axis: 'Data' },
+      },
+      hAxis: {
+        title: 'Datum',
+        format: 'd/M/yy',
+        gridlines: { count: 15 },
+      },
+      axes: {
+        y: {
+          temp: { label: 'Temperatuur [°C]' },
+          humi: { label: 'Luchtvochtigheid [%]' },
+          co2: { label: 'CO2 [ppm]' },
+        },
+      },
+      legend: {
+        position: 'none',
+      },
+    };
+
+    const chart = new google.charts.Line(document.getElementById('chart'));
+    chart.draw(data, google.charts.Line.convertOptions(options));
   });
 });
