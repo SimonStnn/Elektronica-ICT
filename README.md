@@ -41,3 +41,18 @@ Wil je je samenvatting omzetten naar markdown kun je [deze](https://euangoddard.
 
 Kun je je samenvatting niet omzetten naar markdown, dan kun je altijd een issue aanmaken met de vraag of iemand anders dit voor jou kan doen. Leg in de issue zeker uit waar de ander je samenvatting kan vinden.
 > Het is niet de bedoeling dat je een issue aanmaakt met de vraag of iemand anders een samenvatting voor jou kan maken. Dit is een repository waar iedereen aan kan bijdragen, dus als je een samenvatting nodig hebt, maak je deze zelf.
+
+## Vakken
+
+- [1ste semester](./1ste%20semester)
+  - [Algoritmen en datastructuren](./1ste%20semester/Algoritmen%20en%20datastructuren)
+  - [Basisbegrippen elektriciteit](./1ste%20semester/Basisbegrippen%20elektriciteit)
+  - [Basisbegrippen elektronica](./1ste%20semester/Basisbegrippen%20elektronica)
+  - [Basisbegrippen programmeren](./1ste%20semester/Basisbegrippen%20programmeren)
+  - [Basisbegrippen wiskunde](./1ste%20semester/Basisbegrippen%20wiskunde)
+  - [Digitale technieken](./1ste%20semester/Digitale%20technieken)
+  - [Engels](./1ste%20semester/Engels)
+  - [Fysica](./1ste%20semester/Fysica)
+  - [Netwerkbeheer](./1ste%20semester/Netwerkbeheer)
+  - [Objectgeoriënteerd programmeren](./1ste%20semester/Objectgeoriënteerd%20programmeren)
+  - [Webapplicaties](./1ste%20semester/Webapplicaties)
