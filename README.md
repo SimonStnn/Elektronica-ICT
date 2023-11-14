@@ -2,6 +2,14 @@
 
 Samenvattingen en agenda voor Elektronica ICT Vives.
 
+## Inhoudstafel
+
+- [Ermee beginnen](#ermee-beginnen)
+  - [De repository clonen](#de-repository-clonen)
+  - [Vereiste vscode extenties](#vereiste-vscode-extenties)
+  - [Hoe beidragen](#hoe-beidragen)
+    - [Ik heb al een samenvatting gemaakt maar deze is niet in markdown, wat nu?](#ik-heb-al-een-samenvatting-gemaakt-maar-deze-is-niet-in-markdown-wat-nu)
+
 ## Ermee beginnen
 
 ### De repository clonen
