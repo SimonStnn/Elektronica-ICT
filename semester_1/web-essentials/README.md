@@ -1,5 +1,9 @@
 # Web Essentials
 
+## Project template
+
+Je kan een template voor een project vinden in de folder [project_template](./project_template/).
+
 ## Oefeningen
 
 Hier vind je de oefeningen die we maakten tijdens de les.
