@@ -29,8 +29,8 @@ git clone https://github.com/SimonStnn/Elektronica-ICT.git
 
 Nu je het project gecloned hebt, open je het in Visual Studio Code. Zorg dat je extenties hebt geïnstalleerd:
 
-- [markdownlint van David Anson](https://marketplace.visualstudio.com/items?itemName=DavidAnson)
-- [Markdown Preview Enhanced vanYiyi Wang](https://marketplace.visualstudio.com/items?itemName=shd101wyy)
+- markdownlint van David Anson
+- Markdown Preview Enhanced vanYiyi Wang
 
 ### Hoe beidragen
 
