@@ -12,6 +12,7 @@ Samenvattingen en agenda voor Elektronica ICT Vives.
   - [Hoe beidragen](#hoe-beidragen)
     - [Ik heb al een samenvatting gemaakt maar deze is niet in markdown, wat nu?](#ik-heb-al-een-samenvatting-gemaakt-maar-deze-is-niet-in-markdown-wat-nu)
 - [Vakken](#vakken)
+- [Tips](#tips)
 
 ---
 
