@@ -69,6 +69,7 @@ Om de repository in dezelfde stijl te houden doorheen alle vakken, commits, … 
   - Bevelende vorm (bv.: Add README for web essentials)
   - Geen punt op het einde van de zin
   - Niet meer dan 50 karakters lang (als je commit in vscode zal deze het tonen dat je over 50 karakters zit)
+  - Je kan ook bepaalde dingen doen met issues in je commit message. Als je [keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) toevogd aan je commit message kan je iets doen met een issue. ('closes #18' keyword closed issue #18)
 - Github issues:
   - Mogen in het nederlands
   - Zorg dat je een assignee aanduid
