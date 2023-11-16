@@ -58,3 +58,22 @@ Kun je je samenvatting niet omzetten naar markdown, dan kun je altijd een issue 
   - [Introduction to programming](./semester_1/introduction-to-programming/)
   - [Process Design](./semester_1/process-design/)
   - [Web essentials](./semester_1/web-essentials/)
+
+## Tips
+
+Om de repository in dezelfde stijl te houden doorheen alle vakken, commits, … zijn er elke conventies. (deze gaan waarschijnlijk ook aan bod komen volgend semester)
+
+- Commits:
+  - In het engels
+  - Bevelende vorm (bv.: Add README for web essentials)
+  - Geen punt op het einde van de zin
+  - Niet meer dan 50 karakters lang (als je commit in vscode zal deze het tonen dat je over 50 karakters zit)
+- Github issues:
+  - Mogen in het nederlands
+  - Zorg dat je een assignee aanduid
+  - Voeg ook een label toe als dit van toepassing is
+- Markdown bestanden
+  - Edit de markdown bestanden in vscode. Installeer ook de [vscode extenties](#vereiste-vscode-extenties). Die zullen een warning geven als bepaalde 'regels' overtreden worden.
+  - Commit geen markdown bestanden met warnings (tenzij je ze niet kan oplossen of er is een specifieke reden waarom je de warning er in laat)
+
+Als je je aan deze conventies houd dan is het voor anderen gemakkelijker om je werk te bekijken
