@@ -18,8 +18,6 @@ Wat zit er in?
 - [index.html](./project_template/projectnaam/index.html)
 - [style.css](./project_template/projectnaam/recourses/css/style.css)
 - [script.js](./project_template/projectnaam/recourses/js/script.js)
-- [data](./project_template/projectnaam/recourses/data/)
-- [images](./project_template/projectnaam/recourses/images/)
 
 Dit is allemaal al geconnect.
 Bootstrap en Fontawesome zijn ook geconnect.
