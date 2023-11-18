@@ -9,7 +9,7 @@ Samenvattingen en agenda voor Elektronica ICT Vives.
 - [Ermee beginnen](#ermee-beginnen)
   - [De repository clonen](#de-repository-clonen)
   - [Vereiste vscode extenties](#vereiste-vscode-extenties)
-  - [Hoe beidragen](#hoe-beidragen)
+  - [Hoe bijdragen](#hoe-bijdragen)
     - [Ik heb al een samenvatting gemaakt maar deze is niet in markdown, wat nu?](#ik-heb-al-een-samenvatting-gemaakt-maar-deze-is-niet-in-markdown-wat-nu)
 - [Vakken](#vakken)
 - [Tips](#tips)
@@ -33,7 +33,7 @@ Nu je het project gecloned hebt, open je het in Visual Studio Code. Zorg dat je 
 - markdownlint van David Anson
 - Markdown Preview Enhanced vanYiyi Wang
 
-### Hoe beidragen
+### Hoe bijdragen
 
 Het is de bedoeling dat als je een samenvatting van een vak maakt, je deze in de juiste map plaatst. Bij voorkeur maak je een samenvatting in markdown, dat zit namelijk ingebouwd in github. Het is ook handig als iedereen markdown gebruikt, want dan heeft elke samenvatting dezelfde opmaak.
 
@@ -69,7 +69,7 @@ Om de repository in dezelfde stijl te houden doorheen alle vakken, commits, … 
   - Bevelende vorm (bv.: Add README for web essentials)
   - Geen punt op het einde van de zin
   - Niet meer dan 50 karakters lang (als je commit in vscode zal deze het tonen dat je over 50 karakters zit)
-  - Je kan ook bepaalde dingen doen met issues in je commit message. Als je [keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) toevogd aan je commit message kan je iets doen met een issue. ('closes #18' keyword closed issue #18)
+  - Je kan ook bepaalde dingen doen met issues in je commit message. Als je [keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) toevoegd aan je commit message kan je iets doen met een issue. ('closes #18' keyword closed issue #18)
 - Github issues:
   - Mogen in het nederlands
   - Zorg dat je een assignee aanduid
