@@ -13,8 +13,8 @@
 		<lc:PinId>7d2d68d3-9726-4db9-a9c1-4d7b98068361</lc:PinId>
 		<lc:CircuitId>bb53e8fe-0ce1-48d5-ac54-2a2c9b0c4042</lc:CircuitId>
 		<lc:PinSide>Bottom</lc:PinSide>
-		<lc:Name>CLear</lc:Name>
-		<lc:JamNotation>Clr</lc:JamNotation>
+		<lc:Name>Reset</lc:Name>
+		<lc:JamNotation>R</lc:JamNotation>
 	</lc:Pin>
 	<lc:Pin>
 		<lc:PinId>90dfddb7-726b-4cb1-accb-32d31a90c727</lc:PinId>
@@ -41,8 +41,8 @@
 		<lc:PinId>0f6210a8-4701-4906-b55a-7d680255baaf</lc:PinId>
 		<lc:CircuitId>bb53e8fe-0ce1-48d5-ac54-2a2c9b0c4042</lc:CircuitId>
 		<lc:PinSide>Top</lc:PinSide>
-		<lc:Name>Preset</lc:Name>
-		<lc:JamNotation>Pr</lc:JamNotation>
+		<lc:Name>Set</lc:Name>
+		<lc:JamNotation>S</lc:JamNotation>
 	</lc:Pin>
 	<lc:Pin>
 		<lc:PinId>d3595366-a832-4558-b028-090399fa5441</lc:PinId>
