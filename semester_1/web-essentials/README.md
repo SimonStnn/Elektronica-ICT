@@ -9,6 +9,10 @@ Hier vind je de oefeningen die we maakten tijdens de les.
 - [Oefening 1](./07_WebAPI/oefening_1/)
 - [Oefening 2](./07_WebAPI/oefening_2/)
 
+### Chapter 8 - TypeScript
+
+- [Oefening 1](./08_TypeScript/oefening_1/)
+
 ## Project Template
 
 De bedoeling is dat je het mapje [projectnaam](./project_template/projectnaam/) kopieert en plakt waar je het project wilt.
