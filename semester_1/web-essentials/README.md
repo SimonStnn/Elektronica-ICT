@@ -11,7 +11,7 @@ Hier vind je de oefeningen die we maakten tijdens de les.
 
 ### Chapter 8 - TypeScript
 
-- [Oefening 1](./08_TypeScript/oefening_1/)
+- [Voorbeeld](./08_TypeScript/voorbeeld/)
 
 ## Project Template
 
