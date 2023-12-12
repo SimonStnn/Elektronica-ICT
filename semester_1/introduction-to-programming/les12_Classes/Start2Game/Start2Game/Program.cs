@@ -37,7 +37,6 @@
             if(studentAtTheLastRow.xp > 200)
             {
                 studentAtTheLastRow.LevelUp();
-                studentAtTheLastRow.ResetXP();
             }
 			Console.WriteLine($"Your level is {studentAtTheLastRow.level} and your XP is {studentAtTheLastRow.xp}");
 

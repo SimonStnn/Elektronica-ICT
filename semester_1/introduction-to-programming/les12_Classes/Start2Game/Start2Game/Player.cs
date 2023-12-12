@@ -27,6 +27,7 @@ namespace Start2Game
 		public void LevelUp()
 		{
 			level++;
+			ResetXP();
 		}
 		public void GainXP(int amount)
 		{
