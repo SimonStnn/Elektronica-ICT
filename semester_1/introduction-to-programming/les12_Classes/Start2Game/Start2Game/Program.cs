@@ -15,20 +15,20 @@
             // 5 : Call the GainXP method on the studentAtTheLastRow, and pass in 100
             //          Write the Level and XP of the studentAtTheLastRow to the console
             studentAtTheLastRow.GainXP(100);
-            Console.WriteLine($"Level: {studentAtTheLastRow.level}, XP: {studentAtTheLastRow.xp}");
+            Console.WriteLine($"Your level is {studentAtTheLastRow.level} and your XP is {studentAtTheLastRow.xp}");
 
             // 6 : Call the TakeDamage method on the studentAtTheLastRow, and pass in 50
             //          Write the Health of the studentAtTheLastRow to the console
             //          Check if the studentAtTheLastRow is dead, if yes, write "Your Dead!" to the console
             studentAtTheLastRow.TakeDamage(50);
-            Console.WriteLine($"Health: {studentAtTheLastRow.health}");
+            Console.WriteLine($"Your healt is {studentAtTheLastRow.health}");
 			if(studentAtTheLastRow.IsDead())
 				Console.WriteLine("You're Dead!");
 
 			// 7 : Call the GainHealth method on the studentAtTheLastRow, and pass in 20
 			//          Write the Health of the studentAtTheLastRow to the console
 			studentAtTheLastRow.GainHealth(20);
-			Console.WriteLine($"Health: {studentAtTheLastRow.health}");
+			Console.WriteLine($"Your healt is {studentAtTheLastRow.health}");
 
             // 8 : Add 120 XP to the studentAtTheLastRow
             //          Check if the XP > 200, if yes, call the LevelUp method and the ResetXP method on the studentAtTheLastRow
@@ -39,13 +39,13 @@
                 studentAtTheLastRow.LevelUp();
                 studentAtTheLastRow.ResetXP();
             }
-			Console.WriteLine($"Level: {studentAtTheLastRow.level}, XP: {studentAtTheLastRow.xp}");
+			Console.WriteLine($"Your level is {studentAtTheLastRow.level} and your XP is {studentAtTheLastRow.xp}");
 
             // 9 : Call the TakeDamage method on the studentAtTheLastRow, and pass in 75
             //          Write the Health of the studentAtTheLastRow to the console
             //          Check if the studentAtTheLastRow is dead, if yes, write "Your Dead!" to the console
             studentAtTheLastRow.TakeDamage(75);
-			Console.WriteLine($"Health: {studentAtTheLastRow.health}");
+			Console.WriteLine($"Your healt is {studentAtTheLastRow.health}");
 
 			if(studentAtTheLastRow.IsDead())
 				Console.WriteLine("You're Dead!");
