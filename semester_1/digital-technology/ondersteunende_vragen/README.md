@@ -15,19 +15,19 @@
    > - V<sub>OLmax</sub> :
    > - V<sub>IHmin</sub> :
    > - V<sub>ILmax</sub> :
-2. Wat is de **ruismarge** bij TTL en hoeveel is dit voor de hoge en lage niveaus?
+1. Wat is de **ruismarge** bij TTL en hoeveel is dit voor de hoge en lage niveaus?
    > antwoord
-3. Wat is de **statische vermogendissipatie** van een digitale poort?
+1. Wat is de **statische vermogendissipatie** van een digitale poort?
    > antwoord
-4. Wat is het **power delay product** en wat omschrijft deze parameter?
+1. Wat is het **power delay product** en wat omschrijft deze parameter?
    > antwoord
-5. Wat beschrijven de parameters **fan-in**, **fan-out**?
+1. Wat beschrijven de parameters **fan-in**, **fan-out**?
    > antwoord
-6. Wat doe je met ongebruikte ingangen en ongebruikte uitgangen? Waarom?
+1. Wat doe je met ongebruikte ingangen en ongebruikte uitgangen? Waarom?
    > antwoord
-7. Wat is ontkoppelen van de voeding van logische bouwstenen?
+1. Wat is ontkoppelen van de voeding van logische bouwstenen?
    > antwoord
-8. Bespreek een nuttige toepassing voor poorten met **tri-state** uitgang.
+1. Bespreek een nuttige toepassing voor poorten met **tri-state** uitgang.
    > antwoord
-9. Bespreek een nuttige toepassing voor poorten met **open-collector** uitgang.
+1. Bespreek een nuttige toepassing voor poorten met **open-collector** uitgang.
    > antwoord
