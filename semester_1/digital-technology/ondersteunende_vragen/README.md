@@ -372,3 +372,33 @@ Toon aan dat A + A̅ \* B = A + B
   > antwoord
 
 ## Hoofdstuk 6: Tellers
+
+## Hoofdstuk 7: sequentiële systemen
+
+**Gegeven**: de beschrijving van een sequentiedetector, Mealy of Moore, D-FF of JK-FF, met of zonder overlapping
+
+**Opgave**:
+
+- Teken de State Machine.
+
+  > antwoord
+
+- Bepaal de flip-flop uitgangen.
+
+  > antwoord
+
+- Bepaal de overgangstabel (present state, next state, present state output, …).
+
+  > antwoord
+
+- Vereenvoudig de overgangstabel door de redundante toestanden te elimineren d.m.v. een partitietabel.
+
+  > antwoord
+
+- Bepaal de vereenvoudigde hardware d.m.v. Karnaugh-kaarten.
+
+  > antwoord
+
+- Teken het hardware schema.
+
+  > antwoord
