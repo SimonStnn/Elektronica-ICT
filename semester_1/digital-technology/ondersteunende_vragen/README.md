@@ -1,5 +1,17 @@
 # Leerstof ondersteunende vragen
 
+## Inhoudstafel
+
+- [Leerstof ondersteunende vragen](#leerstof-ondersteunende-vragen)
+  - [Inhoudstafel](#inhoudstafel)
+  - [Hoofdstuk 1: Inleiding](#hoofdstuk-1-inleiding)
+  - [Hoofdstuk 2: Digitaal rekenen](#hoofdstuk-2-digitaal-rekenen)
+  - [Hoofdstuk 3: Algebra van Boole](#hoofdstuk-3-algebra-van-boole)
+  - [Hoofdstuk 4: Bistabiele elementen](#hoofdstuk-4-bistabiele-elementen)
+  - [Hoofdstuk 5: Registers](#hoofdstuk-5-registers)
+  - [Hoofdstuk 6: Tellers](#hoofdstuk-6-tellers)
+  - [Hoofdstuk 7: sequentiële systemen](#hoofdstuk-7-sequentiële-systemen)
+
 ## Hoofdstuk 1: Inleiding
 
 Wat beschrijft het **theorema van Shannon** met betrekking tot het bemonsteren van analoge signalen?
