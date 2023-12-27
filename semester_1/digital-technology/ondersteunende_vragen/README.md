@@ -199,3 +199,116 @@ Toon aan dat A + A̅ \* B = A + B
 **Opgave**: hoe kan een N-bits Subtractor (bijvoorbeeld N = 2, 4, 8, …) worden gebouwd, door gebruik te maken van een 1-bits Subtractor? Teken de hardware!
 
 > antwoord
+
+## Hoofdstuk 4: Bistabiele elementen
+
+**Gegeven**: het type bistabiel element is een **NOR-latch**.
+
+**Opgave**:
+
+- Teken de **hardware** van een NOR-latch, met inputs A en B en uitgangen X en Y.
+
+  > antwoord
+
+- Bepaal de **waarheidstabel** van X<sub>tn+1</sub> en Y<sub>tn+1</sub> a.d.h.v. de inputs A, B, X<sub>tn</sub> en Y<sub>tn</sub>.
+
+  > antwoord
+
+- Bepaal de **verkorte waarheidstabel** van een NOR-latch door A, B, X<sub>tn</sub> en Ytn te vervangen door R, S, Q en Q̅.
+
+  > antwoord
+
+- Waarom zijn de uitgangen van een NOR-latch **onvoorspelbaar** als de NOR-latch de transitie maakt van de aansturing AB = 11 naar de aansturing AB = 00?
+
+  > antwoord
+
+- Bepaal de **excitatietabel** van een NOR-latch a.d.h.v. de verkorte waarheidstabel.
+  > antwoord
+
+**Gegeven**: het type bistabiel element is een **NAND-latch**.
+
+**Opgave**:
+
+- Teken de **hardware** van een NOR-latch, met inputs A en B en uitgangen X en Y.
+
+  > antwoord
+
+- Bepaal de **waarheidstabel** van X<sub>tn+1</sub> en Y<sub>tn+1</sub> a.d.h.v. de inputs A, B, X<sub>tn</sub> en Y<sub>tn</sub>.
+
+  > antwoord
+
+- Bepaal de **verkorte waarheidstabel** van een door A, B, X<sub>tn</sub> en Ytn te vervangen door S̅, R̅, Q en Q̅.
+
+  > antwoord
+
+- Waarom zijn de uitgangen van een NAND-latch **onvoorspelbaar** als de NAND-latch de transitie maakt van de aansturing AB = 00 naar de aansturing AB = 11?
+
+  > antwoord
+
+- Bepaal de **excitatietabel** van een NAND-latch a.d.h.v. de verkorte waarheidstabel
+
+  > antwoord
+
+**Gegeven**: het type bistabiel element is een **geklokte RS-latch**.
+
+**Opgave**:
+
+- Teken de **hardware** van de geklokte RS-latch, met inputs S, R en C en uitgangen Q en Q̅.
+
+  > antwoord
+
+- Bepaal de **verkorte waarheidstabel** van de geklokte RS-latch voor inputs S, R en Q<sub>tn</sub> en output Q<sub>tn+1</sub>
+
+  > antwoord
+
+- Bepaal de **excitatietabel** van een geklokte RS-latch a.d.h.v. de verkorte waarheidstabel.
+
+  > antwoord
+
+- Wanneer zijn de uitgangen **onvoorspelbaar**? Toon aan via een timing diagram.
+
+  > antwoord
+
+**Gegeven**: het type bitstabiel element is een geklokte D-latch.
+
+**Opgave**:
+
+- Teken de **hardware** van een geklokte D-latch, met inputs D en Cl en uitgangen Q en Q̅.
+
+  > antwoord
+
+- Bepaal de **verkorte waarheidstabel** van een geklokte D-latch voor inputs D en Q<sub>tn</sub> en uitgang Q<sub>tn+1</sub>
+
+  > antwoord
+
+- Bepaal de **excitatietabel** van een NAND-latch a.d.h.v. de verkorte waarheidstabel.
+
+  > antwoord
+
+- Waarom wordt dit een **D-latch** genoemd?
+
+  > antwoord
+
+**Gegeven**: het type bistabiel element is een Master-Slave JK-flipflop.
+
+**Opgave**:
+
+- Teken de **hardware** van de Master-Slave JK-flipflop, met inputs J, K en Cl en uitgangen Q en Q̅.
+
+  > antwoord
+
+- Bepaal de **verkorte waarheidstabel** van een Master-Slave JK-flipflop voor inputs J, K en Q<sub>tn</sub> en output Q<sub>tn+1</sub>
+
+  > antwoord
+
+- Bepaal de **excitatietabel** van een Master-Slave JK-flipflop a.d.h.v. de verkorte waarheidstabel.
+
+  > antwoord
+
+- Waarom wordt dit type flipflop een **Master-Slave** flipflop genoemd?
+
+  > antwoord
+
+- Hoe kan een Master-Slave flipflop als een **tweedeler** worden ingesteld?
+
+  > antwoord
