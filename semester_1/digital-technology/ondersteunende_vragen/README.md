@@ -312,3 +312,61 @@ Toon aan dat A + A̅ \* B = A + B
 - Hoe kan een Master-Slave flipflop als een **tweedeler** worden ingesteld?
 
   > antwoord
+
+## Hoofdstuk 5: Registers
+
+**Gegeven**: een 4-bit JK schuifregister
+
+**Opgave**:
+
+- Teken de **hardware** van een 4-bit schuifregister met JK-flipflops, met inputs Input, Clock en Reset.
+
+  > antwoord
+
+- Bepaal het **timingdiagram** van het 4-bit schuifregister met JK-flipflops.
+
+  > antwoord
+
+**Gegeven**: een 4-bit schuifregister (D-flipflops) met luswerking en mogelijkheid tot het laden van een input
+
+**Opgave**:
+
+- Teken de **hardware** van een 4-bit D-FF schuifregister met luswerking en mogelijkheid tot het laden van een input. De inputs zijn Input, Control en Klok.
+
+  > antwoord
+
+- Leg uit hoe deze schakeling werkt.
+
+  > antwoord
+
+**Gegeven**: een 4-bit JK schuifregister met mogelijkheid tot asynchroon, parallel laden
+
+**Opgave**:
+
+- Teken de **hardware** van een 4-bit schuifregister met JK-flipflops (inputs PE, Klok, Input, P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> en P<sub>4</sub>).
+
+  > antwoord
+
+- Leg uit hoe deze schakeling werkt.
+
+  > antwoord
+
+**Gegeven**: een 4-bit JK schuifregister met mogelijkheid tot synchroon, parallel laden
+
+**Opgave**:
+
+- Teken de **hardware** van een 4-bit schuifregister met JK-flipflops (inputs PE, Input, Klok, Reset, P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> en P<sub>4</sub>).
+
+  > antwoord
+
+- Leg uit hoe deze schakeling werkt.
+
+  > antwoord
+
+- Wat betekent **PISO** en hoe werkt dit?
+
+  > antwoord
+
+- Wat betekent **SIPO** en hoe werkt dit?
+
+  > antwoord
