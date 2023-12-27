@@ -101,3 +101,67 @@ Wat is een **zelfcomplementerende** code?
 
 Wat is een **cyclische** code?
 > antwoord
+
+## Hoofdstuk 3: Algebra van Boole
+
+Beschrijf de 4 gelijkheden die ook gekend zijn als de Wetten van **De Morgan**.
+> antwoord
+
+Wat beschrijft de **distributieve wet**? Hoe kan deze wet toegepast worden om logische functies te vereenvoudigen?
+> antwoord
+
+Wat is de **absorptiewet**? Hoe kan deze wet toegepast worden om logische functies te vereenvoudigen?
+> antwoord
+
+Toon aan dat A + A * B = A
+> antwoord
+
+Toon aan dat A + A̅ * B = A + B
+> antwoord
+
+**Gegeven**: een logische functie F(A,B,C, …)
+
+**Opgave**: vereenvoudig deze functie maximaal door het toepassen van de Boolese wetten.
+> antwoord
+
+**Gegeven**: een logische functie F(A,B,C, …)
+
+**Opgave1**: bepaal de standaard-som-vorm.
+> antwoord
+
+**Opgave2**: bepaal de standaard-product-vorm.
+> antwoord
+
+**Gegeven**: een logische functie van 2 of 3 of 4 of 5 variabelen (F(A,B,C,D,E))
+
+**Opgave**: vereenvoudig de functie d.m.v. een Karnaugh-kaart.
+> antwoord
+
+**Gegeven**: een toepassing met logische variabelen
+
+**Opgave1**: vereenvoudig de functie d.m.v. Boolese wetten
+> antwoord
+
+**Opgave2**: vereenvoudig de functie d.m.v. een Karnaugh-kaart
+> antwoord
+
+**Opgave3**: hoe kan de vereenvoudigde functie gerealiseerd worden door enkel NAND-poorten te gebruiken?
+> antwoord
+
+**Opgave4**: hoe kan de vereenvoudigde functie gerealiseerd worden door enkel NOR-poorten te gebruiken?
+> antwoord
+
+**Opgave**: ontwerp een schakeling die twee bits optelt, en rekening houdt met een eventuele **carry**. Stel de waarheidstabel op en bepaal de vereenvoudigde vergelijkingen voor de som S en de carry out C<sub>o</sub>.
+> antwoord
+
+**Opgave**: hoe kan een N-bits Adder (bijvoorbeeld N = 2, 4, 8, …) worden gebouwd, door gebruik te maken van een 1-bits Full Adder? Teken de hardware!
+> antwoord
+
+**Opgave**: ontwerp een 1-bits subtractor, die rekening houdt met een eventuele borrow. Stel de waarheidstabel op en bepaal de vereenvoudige vergelijkingen voor het verschil V en de borrow out B<sub>o</sub>.
+> antwoord
+
+**Opgave**: hoe kan een 1-bits subtractor opgebouwd worden door gebruik te maken van een Full Adder?
+> antwoord
+
+**Opgave**: hoe kan een N-bits Subtractor (bijvoorbeeld N = 2, 4, 8, …) worden gebouwd, door gebruik te maken van een 1-bits Subtractor? Teken de hardware!
+> antwoord
