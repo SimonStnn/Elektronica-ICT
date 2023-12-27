@@ -370,3 +370,5 @@ Toon aan dat A + A̅ \* B = A + B
 - Wat betekent **SIPO** en hoe werkt dit?
 
   > antwoord
+
+## Hoofdstuk 6: Tellers
