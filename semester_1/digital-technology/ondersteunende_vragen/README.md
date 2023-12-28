@@ -385,6 +385,26 @@ Toon aan dat A + A̅ \* B = A + B
 
 ## Hoofdstuk 6: Tellers
 
+- Hoe wordt een **asynchrone N-bits up-counter** ontworpen?
+
+    > antwoord
+
+- Hoe wordt een **asynchrone N-bits down-counter** ontworpen?
+
+    > antwoord
+
+**Gegeven**: een asynchrone of synchrone 4-bits teller met JK-flipflops.
+
+**Opgave**: Ontwerp de asynchrone teller, bepaal de vereenvoudigde vergelijkingen a.d.h.v. Karnaugh-kaarten en teken het hardware schema.
+
+  > antwoord
+
+**Gegeven**: een asynchrone of synchrone 4-bits teller met D-flipflops.
+
+**Opgave**: Ontwerp de asynchrone teller, bepaal de vereenvoudigde vergelijkingen a.d.h.v. Karnaugh-kaarten en teken het hardware schema.
+
+  > antwoord
+
 ## Hoofdstuk 7: sequentiële systemen
 
 **Gegeven**: de beschrijving van een sequentiedetector, Mealy of Moore, D-FF of JK-FF, met of zonder overlapping
