@@ -387,23 +387,23 @@ Toon aan dat A + A̅ \* B = A + B
 
 - Hoe wordt een **asynchrone N-bits up-counter** ontworpen?
 
-    > antwoord
+  > antwoord
 
 - Hoe wordt een **asynchrone N-bits down-counter** ontworpen?
 
-    > antwoord
+  > antwoord
 
 **Gegeven**: een asynchrone of synchrone 4-bits teller met JK-flipflops.
 
 **Opgave**: Ontwerp de asynchrone teller, bepaal de vereenvoudigde vergelijkingen a.d.h.v. Karnaugh-kaarten en teken het hardware schema.
 
-  > antwoord
+> antwoord
 
 **Gegeven**: een asynchrone of synchrone 4-bits teller met D-flipflops.
 
 **Opgave**: Ontwerp de asynchrone teller, bepaal de vereenvoudigde vergelijkingen a.d.h.v. Karnaugh-kaarten en teken het hardware schema.
 
-  > antwoord
+> antwoord
 
 ## Hoofdstuk 7: sequentiële systemen
 
