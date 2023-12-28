@@ -16,58 +16,79 @@
 
 Wat beschrijft het **theorema van Shannon** met betrekking tot het bemonsteren van analoge signalen?
 
-> antwoord
+> Het Shannon-theorema stelt dat de bemonsteringsfrequentie (f<sub>s</sub>) van een analoog signaal minstens twee keer zo hoog moet zijn als de hoogste frequentiecomponent (f<sub>max</sub>) in dat signaal.
+>
+> Dit kan worden uitgedrukt als: f<sub>s</sub> ≥ 2 \* f<sub>max</sub>. Met andere woorden, de bemonsteringsfrequentie moet voldoen aan of groter zijn dan twee keer de hoogste frequentie van het analoge signaal om een nauwkeurige digitale reconstructie zonder verlies van informatie mogelijk te maken.
 
 Wat betekent **aliasing** met betrekking tot het bemonsteren van analoge signalen?
 
-> antwoord
+> Aliasing treedt op als de bemonsteringsfrequentie te laag is. Hierdoor kan het gereconstrueerde digitale signaal niet nauwkeurig overeenkomen met het oorspronkelijke analoge signaal.
 
 Wat is **positieve logica**?
 
-> antwoord
+> Een logische `0` word voorgesteld met een lage spanning, lage stroom. Een logische `1` word voorgesteld door een hoge spanning, hoge stroom.
 
 Wat is **negatieve logica**?
 
-> antwoord
+> Een logische `0` word voorgesteld met een hoge spanning, hoge stroom. Een logische `1` word voorgesteld door een lage spanning, lage stroom.
 
 Verklaar de betekenis van volgende parameters en wat is de waarde voor **TTL**?
 
-> - V<sub>OHmin</sub> :
-> - V<sub>OLmax</sub> :
-> - V<sub>IHmin</sub> :
-> - V<sub>ILmax</sub> :
+> Er van uitgaande dat er gewerkt word met positive logica:
+>
+> - V<sub>OHmin</sub> : '_Output High min_' : 2,4V is de minimale waarde dat de output nodig heeft om nog hoog niveau te geven.
+> - V<sub>OLmax</sub> : '_Outpul Low max_' : 0,4V is de maximale waarde dat de output nodig heeft om nog laag niveau te geven.
+> - V<sub>IHmin</sub> : '_Input High min_': 2,0V is de minimale waarde dat de input nodig heeft om nog hoog niveau te ontvangen.
+> - V<sub>ILmax</sub> : '_Input Low max_' : 0,8V is de maximale waarde dat de input nodig heeft om nog een laag te ontvangen.
 
 Wat is de **ruismarge** bij TTL en hoeveel is dit voor de hoge en lage niveaus?
 
-> antwoord
+> De ruismarge is het verschil tussen de minimumwaarde van de hoge spanningsniveaus aan de in- en uitgang maar ook het verschil tussen de maximumwaarde van de lage spanningsniveaus aan de in- en uitgang.
+>
+> Ruismarge= V<sub>OHmin</sub> - V<sub>IHmin</sub> (2,4V - 2,0V) hoog niveau, logische `1`
+>
+> Ruismarge= V<sub>OLmax</sub> – V<sub>IHmax</sub> (0,8V – 0,4V) laag niveau, logische `0`
+>
+> Wat betekent dat binnen de ruismarge een signaal als hoog wordt geïnterpreteerd als de spanning hoger is dan 2,0V en als laag wordt beschouwd als de spanning lager is dan 0,8V.
 
 Wat is de **statische vermogendissipatie** van een digitale poort?
 
-> antwoord
+> Dit is het vermogen dat opgenomen wordt door een poort als men aan de ingang een blokgolf aanlegt met
+een ‘duty cycle’ van 50%. Concreet betekent dit dat de tijd waarin V<sub>IN</sub> hoog is, even lang duurt als het laag niveau van V<sub>IN</sub>.
 
 Wat is het **power delay product** en wat omschrijft deze parameter?
 
-> antwoord
+> Het is het product van het verbruikte statische vermogen en de poortvertragingstijd t<sub>pd</sub> (propagation delay time)
+>
+> Deze parameter bepaald de kwaliteit van de logische poort.
+>
+> De moeilijkheid is een grote snelheid bij een laag vermogen te bereiken.
+> Het is eenvoudig om een kleine t<sub>pd</sub> te verkrijgen, als men de voedingsspanning VCC sterk vergroot. Daardoor zal het vermogen echter ook stijgen!
 
 Wat beschrijven de parameters **fan-in**, **fan-out**?
 
-> antwoord
+> Fan-out van een poort is het aantal poort-ingangen dat wordt aangestuurd door de uitgang van die poort.
+>
+> Fan-in geeft aan hoeveel standaard ingangen evenveel stroom verbruiken of leveren als de beschouwde ingang van de poort. De fan-out is altijd groter of gelijk aan de totale fan-in van de volgende trap.
+> ![fan-in fan-out](images/fanin-fanout.png)
 
 Wat doe je met **ongebruikte ingangen** en **ongebruikte uitgangen**? Waarom?
 
-> antwoord
+> **Ongebruikte ingangen** hang je best met een pull down weerstand aan een logische `0` of met een pull up weerstand aan een logische `1`. Zo voorkom je ongewenste schakelingen via storingen.
+>
+> **Ongebruikte uitgangen** worden opengelaten.
 
 Wat is **ontkoppelen** van de voeding van logische bouwstenen?
 
-> antwoord
+> Om storingen in schakelingen met CMOS en TTL op te vangen, worden condensatoren (10nF tot 100nF) geplaatst voor elke twee of vier componenten. Deze dienen dichtbij het IC te zijn voor optimale filtering en stabiliteit.
 
 Bespreek een nuttige toepassing voor poorten met **tri-state** uitgang.
 
-> antwoord
+> De CPU, het geheugen en de USB-ingangspoort van een pc werken met tri-state uitgangen voor de microprocessorbus. Om conflicten te voorkomen, worden de geheugenpoorten hoogimpedant wanneer data van USB naar CPU wordt gestuurd, en omgekeerd.
 
 Bespreek een nuttige toepassing voor poorten met **open-collector** uitgang.
 
-> antwoord
+> Bij een transistor wordt de open-collector uitgeschakeld wanneer het ingangssignaal hoog is. Als het uitgangssignaal laag moet zijn, wordt deze ingeschakeld en leidt de spanning naar de ground. Deze schakeling maakt het mogelijk om systemen met verschillende spanningen samen te schakelen. Bijvoorbeeld, door LEDs toe te voegen, kan men de stroomrichting in de schakeling visualiseren.
 
 ## Hoofdstuk 2: Digitaal rekenen
 
