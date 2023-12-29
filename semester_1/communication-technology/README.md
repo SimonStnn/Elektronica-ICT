@@ -1,6 +1,7 @@
 # Communication Technology
 
 ## Voorbereiding examen communicatietechnologie
+
 ## Examen:
 
 Het examen bestaat uit 50 meerkeuzevragen.
@@ -12,6 +13,7 @@ bij een slecht antwoord: ‐0,5
 ## Leerstof:
 
 ### Hoofdstuk 2: Basisbegrippen
+
 ‐ Binair getallensysteem, decimaal getallensysteem en hexadecimaal getallensysteem
 ‐ Booleaanse operatoren
 ‐ Het communicatieproces
@@ -25,7 +27,9 @@ bij een slecht antwoord: ‐0,5
 ‐ Transmissiemedia (Twisted pair, coax, glasvezel, draadloos)
 ‐ Circuit‐, message en packet‐switching
 ‐ WAN, MAN, LAN, PAN, BAN
+
 ### Hoofdstuk 3: Het OSI‐referentiemodel
+
 ‐ De opbouw van het OSI‐model
 ‐ De applicatielaag
 ‐ De presentatielaag
@@ -34,19 +38,25 @@ bij een slecht antwoord: ‐0,5
 ‐ De netwerklaag
 ‐ De datalinklaag
 ‐ De fysieke laag
+
 ### Hoofdstuk 4: High‐level Data Link Control (HDLC)
+
 ‐ Stations en configuraties
 ‐ Frame‐structuur
 ‐ Commando’s en responses
 ‐ Oefening
+
 ### Hoofdstuk 5: Lokale netwerken
+
 ‐ LAN‐topologieën
 ‐ Transmissiemedia
 ‐ Toegangsmethodes
 ‐ Componenten voor lokale netwerken
 ‐ Ethernet
 ‐ Draadloze lokale netwerken
+
 ### Hoofdstuk 6: Wide Area‐netwerken
+
 ‐ Toegangsnetwerken
 ‐‐ Analoge geschakelde lijnen
 ‐‐ Analoge vaste lijnen
@@ -58,13 +68,17 @@ bij een slecht antwoord: ‐0,5
 ‐ Transportnetwerken
 ‐‐ ATM
 ‐‐ MPLS
+
 ### Hoofdstuk 7: TCP/IP‐protocol suite
+
 ‐ TCP/IP versus OSI
 ‐ De linklaag
 ‐ De internetlaag (ARP, RARP, …)
 ‐ De transportlaag (TCP/UDP)
 ‐ De apllicatielaag (DHCP, DNS, …)
+
 ### Hoofdstuk 8: IPv4‐adressering
+
 ‐ IPv4‐klassen
 ‐ Decimale notatie
 ‐ Private IPv4‐adressen
@@ -74,7 +88,9 @@ bij een slecht antwoord: ‐0,5
 ‐ Bepaling netwerkadres en broadcastadres
 ‐ Bepaling aantal subnetten en aantal bruikbare host per subnet
 ‐ Oefeningen, oefeningen & oefeningen!!!
+
 ### Hoofdstuk 9: IPv6
+
 ‐ IPv6‐header versus IPv4‐header
 ‐ Notatie van IPv6‐adressen
 ‐ Groepering van adressen (prefixen)
