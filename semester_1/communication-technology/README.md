@@ -2,7 +2,7 @@
 
 ## Voorbereiding examen communicatietechnologie
 
-## Examen:
+## Examen
 
 Het examen bestaat uit 50 meerkeuzevragen.
 Beoordeling: (totaal op 50)
@@ -10,7 +10,7 @@ bij een goed antwoord: +1
 bij geen antwoord: 0
 bij een slecht antwoord: ‐0,5
 
-## Leerstof:
+## Leerstof
 
 ### Hoofdstuk 2: Basisbegrippen
 
