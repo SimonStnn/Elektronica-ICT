@@ -46,7 +46,12 @@ wanneer vloeit er stroom, wat is het verschil tussen arbeid en vermogen, …?
 
 Veranderlijke weerstanden: wat zijn ze, welke zijn er (VDR, PTC, NTC, LDR, …)?
 
-> antwoord
+> - **VDR**: de weerstandswaarde varieert met de spanning die wordt aangelegd over de weerstand.
+> - **PTC**: Naarmate de temperatuur stijgt zal de weerstand stijgen.
+> - **NTC**: Naarmate de temperatuur stijgt zal de weerstand dalen.
+> - **LDR**: Weerstandswaarde veranderd bij de hoeveelheid licht.
+> - **Instelweerstanden** + **Potentiometers**: Instelbare weerstanden.
+> - **Diode**: Een diode beidt een grote weerstand in sperzin en slechts een kleine in doorlaatzin.
 
 Wisselstroomtheorie: wat is het, verschil tussen AC-DC, begrippen zoals Upp, Ugem,
 Ueff, u (momentele/ogenblikkelijke waarde) begrijpen. Hoe ontstaat wisselstroom,
