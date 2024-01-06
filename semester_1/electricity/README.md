@@ -19,7 +19,9 @@ Hoe plaats je je meettoestel om spanning te meten: in serie of in parallel?
 Wat gebeurt er met de stroom door een weerstand, als de spanning groter wordt?
 
 > Dan zal de stroom door de weerstand ook stijgen.
+>
 > $$ I = {U \over R} $$
+>
 > $R$ is constant, dus als $U$ stijgt zal $I$ ook stijgen.
 
 Wat is het verschil tussen U<sub>eff</sub> en U<sub>gem</sub>?
