@@ -14,11 +14,13 @@ Welke eigenschap van koper zorgt ervoor dat het een goede geleider is?
 
 Hoe plaats je je meettoestel om spanning te meten: in serie of in parallel?
 
-> antwoord
+> Parallel, want spanning 'staat over' een component. Stroom meet je in serie, want de stroom 'vloeit door' een component.
 
 Wat gebeurt er met de stroom door een weerstand, als de spanning groter wordt?
 
-> antwoord
+> Dan zal de stroom door de weerstand ook stijgen.
+> $$ I = {U \over R} $$
+> $R$ is constant, dus als $U$ stijgt zal $I$ ook stijgen.
 
 Wat is het verschil tussen U<sub>eff</sub> en U<sub>gem</sub>?
 
