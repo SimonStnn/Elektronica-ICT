@@ -6,11 +6,11 @@
 
 Als men zegt dat koper een goede geleider is, wat betekent dat dan eigenlijk?
 
-> antwoord
+> Als men zegt dat koper een goede geleider is, betekent dit dat koper elektrische stroom efficiënt kan doorlaten.
 
 Welke eigenschap van koper zorgt ervoor dat het een goede geleider is?
 
-> antwoord
+> Omdat koper 1 valentie elektron heeft zo gaat het makkelijk een covalente binding aan, hierdoor is koper een goede geleider.
 
 Hoe plaats je je meettoestel om spanning te meten: in serie of in parallel?
 
@@ -26,18 +26,22 @@ Wat gebeurt er met de stroom door een weerstand, als de spanning groter wordt?
 
 Wat is het verschil tussen U<sub>eff</sub> en U<sub>gem</sub>?
 
-> antwoord
+> De effectieve spanning komt overeen met een DC spanning welke hetzelfde vermogen opwekt in een gegeven belasting.
+>
+> De gemiddelde spanning is het het wiskundige gemiddelde, en kan dus niet gebruikt worden voor het berekenen van vermogens. [^1]
+>
+> [^1]: [circuitsonline.net](https://www.circuitsonline.net/forum/view/17319)
 
 Elektrische stroom, spanning, weerstand: wat is het, wat is het verband onderling,
 hoe werkt het, …?
 
-> antwoord
+> Elektrische stroom is de beweging van lading, spanning is het potentiaalverschil, weerstand hindert de stroom. De wet van Ohm zegt: $U=R*I$. In een circuit werken ze samen volgens deze wet.
 
 Opbouw van molecules, atomen, elektronen, protonen, neutronen, elektrische
 lading, geleiders, isolatoren, ionisatie, excitatie: hoe zit dit allemaal in elkaar? Wat is
 het verband met elektrische stroom, geleiding, isolatie, …
 
-> antwoord
+> Molecules bestaan uit atomen, die op hun beurt uit protonen, neutronen, en elektronen bestaan. Elektronen dragen negatieve ladingen, protonen positieve, en neutronen hebben geen lading. De elektronen draaien om de kern van een atoom. Materialen met vrije elektronen, zoals metalen, zijn goede geleiders. Isolatoren hebben weinig vrije elektronen en geleiden slecht. Elektrische stroom ontstaat wanneer geladen deeltjes zich verplaatsen. Ionisatie en excitatie kunnen leiden tot vrije elektronen, bevorderend voor geleiding. Samengevat: atomaire opbouw beïnvloedt geleiding en isolatie in materialen.
 
 De elektrische kring: hoe werkt het, wat is er nodig, wat doet een verbruiker,
 wanneer vloeit er stroom, wat is het verschil tussen arbeid en vermogen, …?
