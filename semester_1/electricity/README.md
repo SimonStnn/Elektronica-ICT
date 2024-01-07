@@ -46,7 +46,9 @@ het verband met elektrische stroom, geleiding, isolatie, …
 De elektrische kring: hoe werkt het, wat is er nodig, wat doet een verbruiker,
 wanneer vloeit er stroom, wat is het verschil tussen arbeid en vermogen, …?
 
-> antwoord
+> Een elektrische kring werkt door een gesloten pad waarlangs elektronen kunnen stromen. Het vereist een stroombron, geleiders en een verbruiker. Stroom vloeit wanneer de kring gesloten is.
+>
+> Arbeid is de totale energie die een apparaat verbruikt, terwijl vermogen de snelheid van energieverbruik aangeeft. Het verschil: arbeid is de totale prestatie, vermogen is de snelheid ervan.
 
 Veranderlijke weerstanden: wat zijn ze, welke zijn er (VDR, PTC, NTC, LDR, …)?
 
