@@ -200,11 +200,52 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 **Opgave1**: bepaal de standaard-som-vorm.
 
-> antwoord
+> 1. Maak de waarheidstabel voor de functie $F$.
+> 1. Identificeer de rijen waarin $F$ waar is (gelijk aan 1).
+> 1. Voor elke rij waar $F$ waar is, maak een term in de som-vorm (OR van de variabelen waar $F$ 1 is).
+> 1. Combineer deze termen met een logische OF (sum).
 
 **Opgave2**: bepaal de standaard-product-vorm.
 
-> antwoord
+> 1. Maak de waarheidstabel voor de functie $F$.
+> 1. Identificeer de rijen waarin $F$ onwaar is (gelijk aan 0).
+> 1. Voor elke rij waar $F$ onwaar is, maak een term in de product-vorm (AND van de variabelen waar $F$ 0 is).
+> 1. Combineer deze termen met een logische EN (product).
+
+> **Voorbeeld**:
+>
+> Laten we deze stappen illustreren met een voorbeeld. Stel dat de waarheidstabel van $F(A,B,C)$ als volgt is:
+>
+> \[
+> \begin{array}{ccc|c}
+> A & B & C & F \\
+> \hline
+> 0 & 0 & 0 & 1 \\
+> 0 & 0 & 1 & 0 \\
+> 0 & 1 & 0 & 1 \\
+> 0 & 1 & 1 & 1 \\
+> 1 & 0 & 0 & 0 \\
+> 1 & 0 & 1 & 1 \\
+> 1 & 1 & 0 & 0 \\
+> 1 & 1 & 1 & 1 \\
+> \end{array}
+> \]
+>
+> **Opgave 1 - Standaard-Som-Vorm**:
+>
+> De rijen waar $F$ waar is: `1`, `3`, `4`, `6`, `8`.
+>
+> De standaard-som-vorm is dan:
+>
+> $F(A,B,C) = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B \cdot \overline{C} + > \overline{A} \cdot B \cdot C + A \cdot \overline{B} \cdot C + A \cdot B \cdot C$
+>
+> **Opgave 2 - Standaard-Product-Vorm**:
+>
+> De rijen waar $F$ onwaar is: 2, 5, 7.
+>
+> De standaard-product-vorm is dan:
+>
+> $F(A,B,C) = (\overline{A} + \overline{B} + C) \cdot (A + \overline{B} + \overline{C}) \cdot (A + B + \overline{C})$
 
 **Gegeven**: een logische functie van 2 of 3 of 4 of 5 variabelen (F(A,B,C,D,E))
 
