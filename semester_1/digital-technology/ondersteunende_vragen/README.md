@@ -362,22 +362,22 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 - Bepaal de **waarheidstabel** van $X_{tn+1}$ en $Y_{tn+1}$ a.d.h.v. de inputs $R$, $S$, $Q_{tn}$ en $\overline{Q}_{tn}$.
 
-> \[
-> \begin{array}{cccc|cc}
-> R & S & Q_{tn} & \overline{Q}_{tn} & Q_{tn+1} & \overline{Q}_{tn+1} \\
-> \hline
-> 0 & 0 & 0 & 1 & 0  & 1  \\
-> 0 & 0 & 1 & 0 & 1  & 0  \\
-> 1 & 0 & 1 & 0 & 0  & 1  \\
-> 1 & 0 & 0 & 1 & 0  & 1  \\
-> 0 & 1 & 0 & 1 & 1  & 0  \\
-> 0 & 1 & 1 & 0 & 1  & 0  \\
-> 1 & 1 & 1 & 0 & 0  & 0  \\
-> 1 & 1 & 0 & 1 & 0  & 0  \\
-> 0 & 0 & 0 & 0 & 1? & 0? \\
-> 0 & 0 & 0 & 0 & 0? & 1? \\
-> \end{array}
-> \]
+  > \[
+  > \begin{array}{cccc|cc}
+  > R & S & Q_{tn} & \overline{Q}_{tn} & Q_{tn+1} & \overline{Q}_{tn+1} \\
+  > \hline
+  > 0 & 0 & 0 & 1 & 0  & 1  \\
+  > 0 & 0 & 1 & 0 & 1  & 0  \\
+  > 1 & 0 & 1 & 0 & 0  & 1  \\
+  > 1 & 0 & 0 & 1 & 0  & 1  \\
+  > 0 & 1 & 0 & 1 & 1  & 0  \\
+  > 0 & 1 & 1 & 0 & 1  & 0  \\
+  > 1 & 1 & 1 & 0 & 0  & 0  \\
+  > 1 & 1 & 0 & 1 & 0  & 0  \\
+  > 0 & 0 & 0 & 0 & 1? & 0? \\
+  > 0 & 0 & 0 & 0 & 0? & 1? \\
+  > \end{array}
+  > \]
 
 - Bepaal de **verkorte waarheidstabel** van een NOR-latch door A, B, X<sub>tn</sub> en Ytn te vervangen door R, S, Q en Q̅.
 
