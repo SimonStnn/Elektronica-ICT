@@ -155,7 +155,13 @@ Wat is een **cyclische** code?
 
 Beschrijf de 4 gelijkheden die ook gekend zijn als de Wetten van **De Morgan**.
 
-> antwoord
+> 1. $\overline{\overline{A} + \overline{B}} = A \cdot B$
+>
+> 1. $\overline{A + \overline{B}} = \overline{A} \cdot B$
+>
+> 1. $\overline{\overline{A} + B} = A \cdot \overline{B}$
+>
+> 1. $\overline{A + B} = \overline{A} \cdot \overline{B}$
 
 Wat beschrijft de **distributieve wet**? Hoe kan deze wet toegepast worden om logische functies te vereenvoudigen?
 
