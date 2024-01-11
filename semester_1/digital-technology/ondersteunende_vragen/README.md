@@ -273,7 +273,25 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 **Opgave**: ontwerp een schakeling die twee bits optelt, en rekening houdt met een eventuele **carry**. Stel de waarheidstabel op en bepaal de vereenvoudigde vergelijkingen voor de som S en de carry out C<sub>o</sub>.
 
-> antwoord
+> Waarheidstabel:
+> \[
+> \begin{array}{cc|cc}
+> A & B & S & C_O \\
+> \hline
+> 0 & 0 & 0 & 0 \\
+> 0 & 1 & 1 & 0 \\
+> 1 & 0 & 1 & 0 \\
+> 1 & 1 & 0 & 1 \\
+> \end{array}
+> \]
+>
+> Voor de som $S$:
+> $S = A ⊕ B$
+> Voor de carry-out $C_O$:
+> $C_O = A \cdot B$
+>
+> Hieruit volgt:
+> ![half-adder](./images/half-addr.png)
 
 **Opgave**: hoe kan een N-bits Adder (bijvoorbeeld N = 2, 4, 8, …) worden gebouwd, door gebruik te maken van een 1-bits Full Adder? Teken de hardware!
 
