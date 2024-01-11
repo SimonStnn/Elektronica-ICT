@@ -125,22 +125,22 @@ Zet een decimaal getal, met fractie, om naar het binaire, octale of hexadecimale
 
 **Opgave**:
 
-- bepaal **A + B** door normalisatie van de exponenten
+- bepaal $A + B$ door normalisatie van de exponenten
   > antwoord
-- Bepaal **A x B** door normalisatie van de exponenten
+- Bepaal $A \cdot B$ door normalisatie van de exponenten
   > antwoord
 
 **Gegeven**: een decimaal getal A, bijvoorbeeld A = (9)10
 
 **Opgave**:
 
-- Bepaal de **2421** voorstelling van A
+- Bepaal de $2421$ voorstelling van A
   > antwoord
-- Bepaal de **5211** voorstelling van A
+- Bepaal de $5211$ voorstelling van A
   > antwoord
-- Bepaal de **842̅1̅** voorstelling van A
+- Bepaal de $84\overline{21}$ voorstelling van A
   > antwoord
-- Bepaal de **XS3** voorstelling van A
+- Bepaal de $XS3$ voorstelling van A
   > antwoord
 
 Wat is een **zelfcomplementerende** code?
@@ -165,11 +165,11 @@ Wat is de **absorptiewet**? Hoe kan deze wet toegepast worden om logische functi
 
 > antwoord
 
-Toon aan dat A + A \* B = A
+Toon aan dat $A + A \cdot B=A$
 
 > antwoord
 
-Toon aan dat A + A̅ \* B = A + B
+Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 > antwoord
 
