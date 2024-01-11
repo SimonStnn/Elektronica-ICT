@@ -8,6 +8,8 @@
 		<lc:LogicalCircuitId>bb53e8fe-0ce1-48d5-ac54-2a2c9b0c4042</lc:LogicalCircuitId>
 		<lc:Name>JK Flip Flop</lc:Name>
 		<lc:Notation>JK flip-flop</lc:Notation>
+		<lc:Note>JK Master Slave flip-flop</lc:Note>
+		<lc:CircuitShape>FlipFlop</lc:CircuitShape>
 	</lc:LogicalCircuit>
 	<lc:Pin>
 		<lc:PinId>7d2d68d3-9726-4db9-a9c1-4d7b98068361</lc:PinId>
