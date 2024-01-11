@@ -2,12 +2,12 @@
 <lc:CircuitProject xmlns:lc="http://LogicCircuit.net/2.0.0.11/CircuitProject.xsd">
 	<lc:Project>
 		<lc:ProjectId>ce3e99aa-4984-4048-9925-c1fafdb5ce68</lc:ProjectId>
-		<lc:Name>1-bit-addr</lc:Name>
+		<lc:Name>1-bit-half-addr</lc:Name>
 		<lc:LogicalCircuitId>6e723c36-a28a-4451-97e8-6aa23e63db04</lc:LogicalCircuitId>
 	</lc:Project>
 	<lc:LogicalCircuit>
 		<lc:LogicalCircuitId>6e723c36-a28a-4451-97e8-6aa23e63db04</lc:LogicalCircuitId>
-		<lc:Name>1-bit-addr</lc:Name>
+		<lc:Name>1-bit-half-addr</lc:Name>
 		<lc:Notation>addr</lc:Notation>
 	</lc:LogicalCircuit>
 	<lc:Pin>
