@@ -381,7 +381,16 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 - Bepaal de **verkorte waarheidstabel** van een NOR-latch door A, B, X<sub>tn</sub> en Ytn te vervangen door R, S, Q en Q̅.
 
-  > antwoord
+  > \[
+  > \begin{array}{cc|cc}
+  > R & S & Q & \overline{Q} \\
+  > \hline
+  > 0 & 0 & 1 & 1 \\
+  > 0 & 1 & 0 & 1 \\
+  > 1 & 0 & 1 & 0 \\
+  > 1 & 1 & 0 & 0 \\
+  > \end{array}
+  > \]
 
 - Waarom zijn de uitgangen van een NOR-latch **onvoorspelbaar** als de NOR-latch de transitie maakt van de aansturing AB = 11 naar de aansturing AB = 00?
 
@@ -396,7 +405,7 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 - Teken de **hardware** van een NAND-latch, met inputs A en B en uitgangen X en Y.
 
-  > antwoord
+  > ![NAND-latch](./images/NAND-latch.png)
 
 - Bepaal de **waarheidstabel** van X<sub>tn+1</sub> en Y<sub>tn+1</sub> a.d.h.v. de inputs A, B, X<sub>tn</sub> en Y<sub>tn</sub>.
 
@@ -404,7 +413,16 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 - Bepaal de **verkorte waarheidstabel** van een door A, B, X<sub>tn</sub> en Ytn te vervangen door S̅, R̅, Q en Q̅.
 
-  > antwoord
+  > \[
+  > \begin{array}{cc|cc}
+  > S & R & Q & \overline{Q} \\
+  > \hline
+  > 0 & 0 & 1 & 1 \\
+  > 0 & 1 & 1 & 0 \\
+  > 1 & 0 & 0 & 1 \\
+  > 1 & 1 & 0 & 0 \\
+  > \end{array}
+  > \]
 
 - Waarom zijn de uitgangen van een NAND-latch **onvoorspelbaar** als de NAND-latch de transitie maakt van de aansturing AB = 00 naar de aansturing AB = 11?
 
