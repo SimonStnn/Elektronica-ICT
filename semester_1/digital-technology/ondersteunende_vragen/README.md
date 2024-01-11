@@ -282,23 +282,31 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 > Waarheidstabel:
 > \[
-> \begin{array}{cc|cc}
-> A & B & S & C_{out} \\
+> \begin{array}{ccc|cc}
+> A & B & C_{in} & S & C_{out} \\
 > \hline
-> 0 & 0 & 0 & 0 \\
-> 0 & 1 & 1 & 0 \\
-> 1 & 0 & 1 & 0 \\
-> 1 & 1 & 0 & 1 \\
+> 0 & 0 & 0 & 0 & 0 \\
+> 0 & 0 & 1 & 1 & 0 \\
+> 0 & 1 & 0 & 1 & 0 \\
+> 0 & 1 & 1 & 0 & 1 \\
+> 1 & 0 & 0 & 1 & 0 \\
+> 1 & 0 & 1 & 0 & 1 \\
+> 1 & 1 & 0 & 0 & 1 \\
+> 1 & 1 & 1 & 1 & 1 \\
 > \end{array}
 > \]
 >
 > Voor de som $S$:
-> $S = A ⊕ B$
+>
+> $S = A ⊕ B ⊕ C_{in}$
+>
 > Voor de carry-out $C_{out}$:
-> $C_{out} = A \cdot B$
+>
+> $C_{out} = A \cdot B + C_{in}(A ⊕ B)$
 >
 > Hieruit volgt:
-> ![half-adder](./images/half-addr.png)
+>
+> ![1-bit-full-adder](./images/1-bit-full-addr.png)
 
 **Opgave**: hoe kan een N-bits Adder (bijvoorbeeld N = 2, 4, 8, …) worden gebouwd, door gebruik te maken van een 1-bits Full Adder? Teken de hardware!
 
@@ -382,7 +390,7 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 **Opgave**:
 
-- Teken de **hardware** van een NOR-latch, met inputs A en B en uitgangen X en Y.
+- Teken de **hardware** van een NAND-latch, met inputs A en B en uitgangen X en Y.
 
   > antwoord
 
