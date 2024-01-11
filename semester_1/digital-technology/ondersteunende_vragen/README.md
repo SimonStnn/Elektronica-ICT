@@ -182,11 +182,13 @@ Wat is de **absorptiewet**? Hoe kan deze wet toegepast worden om logische functi
 
 Toon aan dat $A + A \cdot B=A$
 
-> antwoord
+> Zie absorptiewet
 
 Toon aan dat $A + \overline{A} \cdot B = A + B$
 
-> antwoord
+> $A + \overline{A} \cdot B = (A + \overline{A}) \cdot (A + B)$
+> $A + \overline{A} \cdot B = 1 \cdot (A + B)$
+> $A + \overline{A} \cdot B = A + B$
 
 **Gegeven**: een logische functie F(A,B,C, …)
 
