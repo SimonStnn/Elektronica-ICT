@@ -344,13 +344,28 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 **Opgave**:
 
-- Teken de **hardware** van een NOR-latch, met inputs A en B en uitgangen X en Y.
+- Teken de **hardware** van een NOR-latch, met inputs $R$ en $S$ en uitgangen $Q$ en $\overline{Q}$.
 
-  > antwoord
+  > ![NOR-latch](./images/NOR-latch.png)
 
-- Bepaal de **waarheidstabel** van X<sub>tn+1</sub> en Y<sub>tn+1</sub> a.d.h.v. de inputs A, B, X<sub>tn</sub> en Y<sub>tn</sub>.
+- Bepaal de **waarheidstabel** van $X_{tn+1}$ en $Y_{tn+1}$ a.d.h.v. de inputs $R$, $S$, $Q_{tn}$ en $\overline{Q}_{tn}$.
 
-  > antwoord
+> \[
+> \begin{array}{cccc|cc}
+> R & S & Q_{tn} & \overline{Q}_{tn} & Q_{tn+1} & \overline{Q}_{tn+1} \\
+> \hline
+> 0 & 0 & 0 & 1 & 0  & 1  \\
+> 0 & 0 & 1 & 0 & 1  & 0  \\
+> 1 & 0 & 1 & 0 & 0  & 1  \\
+> 1 & 0 & 0 & 1 & 0  & 1  \\
+> 0 & 1 & 0 & 1 & 1  & 0  \\
+> 0 & 1 & 1 & 0 & 1  & 0  \\
+> 1 & 1 & 1 & 0 & 0  & 0  \\
+> 1 & 1 & 0 & 1 & 0  & 0  \\
+> 0 & 0 & 0 & 0 & 1? & 0? \\
+> 0 & 0 & 0 & 0 & 0? & 1? \\
+> \end{array}
+> \]
 
 - Bepaal de **verkorte waarheidstabel** van een NOR-latch door A, B, X<sub>tn</sub> en Ytn te vervangen door R, S, Q en Q̅.
 
