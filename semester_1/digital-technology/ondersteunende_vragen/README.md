@@ -165,7 +165,12 @@ Beschrijf de 4 gelijkheden die ook gekend zijn als de Wetten van **De Morgan**.
 
 Wat beschrijft de **distributieve wet**? Hoe kan deze wet toegepast worden om logische functies te vereenvoudigen?
 
-> antwoord
+> $(A + B) \cdot (A + C) = A \cdot A + A \cdot C + A \cdot B + B \cdot C$
+> $(A + B) \cdot (A + C) = A + A \cdot C + A \cdot B + B \cdot C$
+> $(A + B) \cdot (A + C) = A + A \cdot B + B \cdot C$
+> $(A + B) \cdot (A + C) = A + B \cdot C$
+>
+> Hoorcolleges > Hoofdstuk 3: combinatorische schakelingen > Dia 11
 
 Wat is de **absorptiewet**? Hoe kan deze wet toegepast worden om logische functies te vereenvoudigen?
 
