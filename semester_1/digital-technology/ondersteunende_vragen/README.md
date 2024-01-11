@@ -174,7 +174,11 @@ Wat beschrijft de **distributieve wet**? Hoe kan deze wet toegepast worden om lo
 
 Wat is de **absorptiewet**? Hoe kan deze wet toegepast worden om logische functies te vereenvoudigen?
 
-> antwoord
+> $A + A \cdot B = A (1 + B)$
+> $A + A \cdot B = A \cdot 1$
+> $A + A \cdot B = A$
+>
+> Hoorcolleges > Hoofdstuk 3: combinatorische schakelingen > Dia 12
 
 Toon aan dat $A + A \cdot B=A$
 
