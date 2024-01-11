@@ -299,7 +299,27 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 **Opgave**: ontwerp een 1-bits subtractor, die rekening houdt met een eventuele borrow. Stel de waarheidstabel op en bepaal de vereenvoudige vergelijkingen voor het verschil V en de borrow out B<sub>o</sub>.
 
-> antwoord
+> Waarheidstabel:
+> \[
+> \begin{array}{ccc|cc}
+> A & B & B_{in} & V & B_{out} \\
+> \hline
+> 0 & 0 & 0 & 0 & 0 \\
+> 0 & 1 & 0 & 1 & 1 \\
+> 1 & 1 & 0 & 0 & 0 \\
+> 1 & 0 & 0 & 1 & 0 \\
+> 0 & 0 & 1 & 1 & 1 \\
+> 0 & 1 & 1 & 0 & 1 \\
+> 1 & 1 & 1 & 1 & 1 \\
+> 1 & 0 & 1 & 0 & 0 \\
+> \end{array}
+> \]
+>
+> Voor het verschil $V$:
+> $V = A ⊕ B ⊕ B_{in}$
+>
+> Voor de borrow-out $B_{out}$
+> $B_{out} = (\overline{A} \cdot B) + (\overline{A} \cdot B_{in}) + (B \cdot B_{in})$
 
 **Opgave**: hoe kan een 1-bits subtractor opgebouwd worden door gebruik te maken van een Full Adder?
 
