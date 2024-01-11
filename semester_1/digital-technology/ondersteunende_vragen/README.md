@@ -336,7 +336,11 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 > $V = A ⊕ B ⊕ B_{in}$
 >
 > Voor de borrow-out $B_{out}$:
-> $B_{out} = (\overline{A} \cdot B) + (\overline{A} \cdot B_{in}) + (B \cdot B_{in})$
+> $B_{out} = (\overline{A} \cdot B) + (\overline{A} \cdot \overline{B} \cdot B_{in}) + (B \cdot B_{in})$
+>
+> Hieruit volgt:
+>
+> ![1-bit-full-subtractor](./images/1-bit-full-subtractor.png)
 
 **Opgave**: hoe kan een 1-bits subtractor opgebouwd worden door gebruik te maken van een Full Adder?
 
