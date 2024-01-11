@@ -504,11 +504,11 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 - Teken de **hardware** van een 4-bit schuifregister met JK-flipflops, met inputs Input, Clock en Reset.
 
-  > antwoord
+  > ![Schuifregister](./images/schuifregister.png)
 
 - Bepaal het **timingdiagram** van het 4-bit schuifregister met JK-flipflops.
 
-  > antwoord
+  > ![timingdiagram](./images/timeing-diagram.png)
 
 **Gegeven**: een 4-bit schuifregister (D-flipflops) met luswerking en mogelijkheid tot het laden van een input
 
@@ -528,19 +528,7 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 - Teken de **hardware** van een 4-bit schuifregister met JK-flipflops (inputs PE, Klok, Input, P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> en P<sub>4</sub>).
 
-  > antwoord
-
-- Leg uit hoe deze schakeling werkt.
-
-  > antwoord
-
-**Gegeven**: een 4-bit JK schuifregister met mogelijkheid tot synchroon, parallel laden
-
-**Opgave**:
-
-- Teken de **hardware** van een 4-bit schuifregister met JK-flipflops (inputs PE, Input, Klok, Reset, P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> en P<sub>4</sub>).
-
-  > antwoord
+  > ![D-FF schuifregister](./images/d-ff-schuifregister.png)
 
 - Leg uit hoe deze schakeling werkt.
 
@@ -548,11 +536,11 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 - Wat betekent **PISO** en hoe werkt dit?
 
-  > antwoord
+  > Het laden gebeurt parallel, het ontladen gebeurt serieel.
 
 - Wat betekent **SIPO** en hoe werkt dit?
 
-  > antwoord
+  > Het laden gebeurt serieel, het ontladen gebeurt parallel.
 
 ## Hoofdstuk 6: Tellers
 
@@ -578,13 +566,30 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 ## Hoofdstuk 7: sequentiële systemen
 
+Bespreek de verschillen tussen een Moore en een Mealy State Machine
+
+>**Moore State Machine**:
+> > **Uitvoer bij de Overgang van Toestanden**: In een Moore State Machine is de uitvoer alleen afhankelijk van de huidige toestand. Elke toestand heeft een toegewezen uitvoerwaarde.
+> >
+> > **Overgangscondities**: De overgang van de ene toestand naar de andere wordt bepaald door de invoer, maar de uitvoer wordt pas aangepast zodra de nieuwe toestand is bereikt.
+> >
+> > **Toepassing**: Moore-machines worden vaak gebruikt in toepassingen waarbij de uitvoer alleen afhankelijk is van de huidige toestand. Ze zijn eenvoudig te ontwerpen en te begrijpen, en ze hebben duidelijk gedefinieerde gedragingen.
+>
+> **Mealy State Machine**:
+>
+> > **Uitvoer bij de Overgang van Toestanden en Invoer**: In een Mealy State Machine is de uitvoer niet alleen afhankelijk van de huidige toestand, maar ook van de huidige invoer. Elke overgang van toestand kan een onmiddellijke reactie in de uitvoer veroorzaken.
+> >
+> > **Overgangscondities**: De overgang van de ene toestand naar de andere wordt bepaald door zowel de invoer als de huidige toestand.
+> >
+> > **Toepassing**: Mealy-machines worden gebruikt in toepassingen waarbij de uitvoer direct kan reageren op zowel de huidige toestand als de invoer. Ze kunnen efficiënter zijn in termen van het aantal toestanden dat nodig is om een bepaalde functie te implementeren.
+
 **Gegeven**: de beschrijving van een sequentiedetector, Mealy of Moore, D-FF of JK-FF, met of zonder overlapping
 
 **Opgave**:
 
 - Teken de State Machine.
 
-  > antwoord
+  > ![State machine](./images/state-machine.png)
 
 - Bepaal de flip-flop uitgangen.
 
