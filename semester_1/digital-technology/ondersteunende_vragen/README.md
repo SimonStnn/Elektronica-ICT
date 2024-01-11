@@ -166,8 +166,11 @@ Beschrijf de 4 gelijkheden die ook gekend zijn als de Wetten van **De Morgan**.
 Wat beschrijft de **distributieve wet**? Hoe kan deze wet toegepast worden om logische functies te vereenvoudigen?
 
 > $(A + B) \cdot (A + C) = A \cdot A + A \cdot C + A \cdot B + B \cdot C$
+>
 > $(A + B) \cdot (A + C) = A + A \cdot C + A \cdot B + B \cdot C$
+>
 > $(A + B) \cdot (A + C) = A + A \cdot B + B \cdot C$
+>
 > $(A + B) \cdot (A + C) = A + B \cdot C$
 >
 > Hoorcolleges > Hoofdstuk 3: combinatorische schakelingen > Dia 11
@@ -175,7 +178,9 @@ Wat beschrijft de **distributieve wet**? Hoe kan deze wet toegepast worden om lo
 Wat is de **absorptiewet**? Hoe kan deze wet toegepast worden om logische functies te vereenvoudigen?
 
 > $A + A \cdot B = A (1 + B)$
+>
 > $A + A \cdot B = A \cdot 1$
+>
 > $A + A \cdot B = A$
 >
 > Hoorcolleges > Hoofdstuk 3: combinatorische schakelingen > Dia 12
@@ -187,7 +192,9 @@ Toon aan dat $A + A \cdot B=A$
 Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 > $A + \overline{A} \cdot B = (A + \overline{A}) \cdot (A + B)$
+>
 > $A + \overline{A} \cdot B = 1 \cdot (A + B)$
+>
 > $A + \overline{A} \cdot B = A + B$
 
 **Gegeven**: een logische functie F(A,B,C, …)
@@ -276,7 +283,7 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 > Waarheidstabel:
 > \[
 > \begin{array}{cc|cc}
-> A & B & S & C_O \\
+> A & B & S & C_{out} \\
 > \hline
 > 0 & 0 & 0 & 0 \\
 > 0 & 1 & 1 & 0 \\
@@ -287,8 +294,8 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 >
 > Voor de som $S$:
 > $S = A ⊕ B$
-> Voor de carry-out $C_O$:
-> $C_O = A \cdot B$
+> Voor de carry-out $C_{out}$:
+> $C_{out} = A \cdot B$
 >
 > Hieruit volgt:
 > ![half-adder](./images/half-addr.png)
@@ -299,6 +306,8 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 
 **Opgave**: ontwerp een 1-bits subtractor, die rekening houdt met een eventuele borrow. Stel de waarheidstabel op en bepaal de vereenvoudige vergelijkingen voor het verschil V en de borrow out B<sub>o</sub>.
 
+> $V = A - (B + B_{in})$
+>
 > Waarheidstabel:
 > \[
 > \begin{array}{ccc|cc}
@@ -318,7 +327,7 @@ Toon aan dat $A + \overline{A} \cdot B = A + B$
 > Voor het verschil $V$:
 > $V = A ⊕ B ⊕ B_{in}$
 >
-> Voor de borrow-out $B_{out}$
+> Voor de borrow-out $B_{out}$:
 > $B_{out} = (\overline{A} \cdot B) + (\overline{A} \cdot B_{in}) + (B \cdot B_{in})$
 
 **Opgave**: hoe kan een 1-bits subtractor opgebouwd worden door gebruik te maken van een Full Adder?
