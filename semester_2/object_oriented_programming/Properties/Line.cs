@@ -28,7 +28,7 @@ namespace Properties
 		public int[] GetEndXY() { return new int[2] {End.X, End.Y}; }
 
 		public void SetBeginXY(int x, int y) { Begin.SetXY(x, y); }
-		public void SetEndXy(int x, int y) { End.SetXY(x, y); }
+		public void SetEndXY(int x, int y) { End.SetXY(x, y); }
 
 		public override string ToString()
 		{
