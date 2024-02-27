@@ -1,6 +1,4 @@
-﻿using GettersAndSetters;
-
-namespace Properties
+﻿namespace Properties
 {
 	internal class Program
 	{
@@ -32,7 +30,7 @@ namespace Properties
 			circle.Origin = begin;
 
 			Console.WriteLine(circle);
-			Console.WriteLine($"Area of the circle {circle} is: {circle.Area()}");
+			Console.WriteLine($"Area of the circle {circle} is: {circle.Area():F2}");
 		}
 	}
 }
