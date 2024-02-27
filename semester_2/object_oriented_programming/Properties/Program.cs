@@ -26,6 +26,13 @@ namespace Properties
 			Console.WriteLine($"beginY = {beginXY[1]}");
 
 			Console.WriteLine($"Length: {line.GetLength():F2}");
+
+			Circle circle = new();
+			circle.Radius = 5.3;
+			circle.Origin = begin;
+
+			Console.WriteLine(circle);
+			Console.WriteLine($"Area of the circle {circle} is: {circle.Area()}");
 		}
 	}
 }
