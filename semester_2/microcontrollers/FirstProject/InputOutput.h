@@ -1,0 +1,1 @@
+void InitIo(void);
